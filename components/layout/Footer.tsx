@@ -1,5 +1,6 @@
 export default function Footer() {
   return (
+    <>
     <footer className="bg-slate-50 border-t border-gray-200 pt-20 pb-10 relative overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-[1px] bg-gradient-to-r from-transparent via-skeRed/30 to-transparent" />
@@ -83,5 +84,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    </>
   );
 }
